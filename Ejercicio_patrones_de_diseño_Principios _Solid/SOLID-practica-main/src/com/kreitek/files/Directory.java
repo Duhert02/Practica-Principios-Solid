@@ -15,11 +15,6 @@ public class Directory extends FileSystemItemBase implements FileSystemItem {
     }
 
     @Override
-    public String getExtension() {
-        throw new UnsupportedOperationException(NO_ES_VALIDO_PARA_DIRECTORIOS);
-    }
-
-    @Override
     public List<FileSystemItem> listFiles() {
         return files;
     }
@@ -44,16 +39,6 @@ public class Directory extends FileSystemItemBase implements FileSystemItem {
 
     @Override
     public void open() {
-        throw new UnsupportedOperationException(NO_ES_VALIDO_PARA_DIRECTORIOS);
-    }
-
-    @Override
-    public void setPosition(int numberOfBytesFromBeginning) {
-        throw new UnsupportedOperationException(NO_ES_VALIDO_PARA_DIRECTORIOS);
-    }
-
-    @Override
-    public byte[] read(int numberOfBytesToRead) {
         throw new UnsupportedOperationException(NO_ES_VALIDO_PARA_DIRECTORIOS);
     }
 
