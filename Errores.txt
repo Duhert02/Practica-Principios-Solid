@@ -1,0 +1,3 @@
+En este ejercicio se incumplen de momento dos de los principios soli, estos son el prinipio de responsabilidad unica, debido a que puede encontrar codigo duplicado en algunos de los ficheros como pueden ser Directory o file y tambien se incumple el principio de segregacion de interfaz ya que existe una sola interfaz para todos los tipos de clases y cada una yutiliza metodos diferentes en base a sus necesidades. Por ejemplo en la clase directory exuste un metodo que es el de ConvertToMP3 que no utiliza Directory.
+Tambien Algunos  metodos no se llegan a utilizar causando confusion. Existe codigo duplicado. 
+
